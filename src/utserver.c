@@ -9,10 +9,11 @@
 #include<stdlib.h>
 #include<string.h>
 #include<errno.h>
+#include<arpa/inet.h>
 
 
 
-void main(int argc, char **argv)
+int main(int argc, char **argv)
 {
 	int	sockfd, connfd, udpfd, nready, maxfd;
 	char	msg_udp[1024],msg_tcp[1024];
