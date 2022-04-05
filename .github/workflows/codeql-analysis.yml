@@ -58,3 +58,10 @@ jobs:
 
     - name: Perform CodeQL Analysis
       uses: github/codeql-action/analyze@v2
+      
+    - name: Code Scanning result upload SARIF
+      uses: github/codeql-action/analyze@v2
+      with:
+        wait-for-processing: true   
+      
+  
