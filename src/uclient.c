@@ -6,7 +6,7 @@
 #include<stdlib.h>
 #include<netdb.h>
 #include<netinet/in.h>
-
+#include<strings.h>
 
 int main(int argc, char **argv)
 {
